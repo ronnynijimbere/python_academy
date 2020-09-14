@@ -32,10 +32,14 @@
 # print(x[-1] + x[-2] + x[-4] + x[-3]) #output: loco
 
 # Day 7
-l = [[]]
+# l = [[]]
 
-if l:
-    print(True)
-else:
-    print(False)
+# if l:
+#     print(True)
+# else:
+#     print(False)
 #output: True
+
+# Day 8
+x = 5 // -3.0 * 4
+print(x) # output -8.0
