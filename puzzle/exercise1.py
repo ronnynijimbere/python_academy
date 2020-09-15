@@ -43,3 +43,8 @@
 # Day 8
 x = 5 // -3.0 * 4
 print(x) # output -8.0
+
+# Day 9
+words = ['ape', 'banana', 'cat', 'bird']
+b_words = [w for w in words if w.startswith('b')]
+print(len(b_words)) # output: 2
