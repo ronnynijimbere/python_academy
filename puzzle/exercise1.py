@@ -41,10 +41,30 @@
 #output: True
 
 # Day 8
-x = 5 // -3.0 * 4
-print(x) # output -8.0
+# x = 5 // -3.0 * 4
+# print(x) # output -8.0
 
-# Day 9
-words = ['ape', 'banana', 'cat', 'bird']
-b_words = [w for w in words if w.startswith('b')]
-print(len(b_words)) # output: 2
+# # Day 9
+# words = ['ape', 'banana', 'cat', 'bird']
+# b_words = [w for w in words if w.startswith('b')]
+# print(len(b_words)) # output: 2
+
+# Day 10
+# Logic Statements
+A = True # Temperatures are high
+B = True # Artic ice is melting
+C = True # Sea Levels are rising
+D = False # All regions become hot
+
+def follows(A, B):
+    """ Returns True if 'A -> B'
+    in words: 'B follows from A' """
+    return not A or B
+
+# Do We have climate change
+climate_change = follows(follows(A, B), C)
+if not D:
+    print(climate_change)
+else:
+    print(D)
+#output: True
