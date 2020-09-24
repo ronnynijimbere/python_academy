@@ -51,20 +51,21 @@
 
 # Day 10
 # Logic Statements
-A = True # Temperatures are high
-B = True # Artic ice is melting
-C = True # Sea Levels are rising
-D = False # All regions become hot
+# A = True # Temperatures are high
+# B = True # Arctic ice is melting
+# C = True # Sea Levels are rising
+# D = False # All regions become hot
 
-def follows(A, B):
-    """ Returns True if 'A -> B'
-    in words: 'B follows from A' """
-    return not A or B
+# def follows(A, B):
+#     """ Returns True if 'A -> B'
+#     in words: 'B follows from A' """
+#     return not A or B
 
 # Do We have climate change
-climate_change = follows(follows(A, B), C)
-if not D:
-    print(climate_change)
-else:
-    print(D)
+# climate_change = follows(follows(A, B), C)
+# if not D:
+#     print(climate_change)
+# else:
+#     print(D)
 #output: True
+
